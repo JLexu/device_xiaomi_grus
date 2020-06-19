@@ -1,33 +1,21 @@
 [
     {
-        "repository": "JLexu/device_xiaomi_grus",
-        "target_path": "device/xiaomi/grus",
-        "remote": "github",
-        "branch": "lineage-17.0"
+        "remote":       "github",
+        "repository":   "JLexu/device_xiaomi_grus",
+        "target_path":  "device/xiaomi/grus",
+        "branch":       "quartz"
     },
     {
-        "repository": "JLexu/vendor_xiaomi_grus",
-        "target_path": "vendor/xiaomi/grus",
-        "remote": "github",
-        "branch": "q"
+        "remote":       "github",
+        "repository":   "JLexu/vendor_xiaomi_grus",
+        "target_path":  "vendor/xiaomi/grus",
+        "branch":       "q"
     },
     {
-        "repository": "JLexu/kowalski-grus",
-        "target_path": "kernel/xiaomi/grus",
-        "remote": "github",
-        "branch": "dev-q"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_packages_apps_Bluetooth",
-        "target_path":  "packages/apps/Bluetooth",
-        "revision":     "quartz-dev"
-    },
-    {
-        "remote":       "aospa",
-        "repository":   "AOSPA/android_frameworks_opt_net_wifi",
-        "target_path":  "frameworks/opt/net/wifi",
-        "revision":     "quartz-dev"
+        "remote":       "github",
+        "repository":   "JLexu/kernel_xiaomi_grus",
+        "target_path":  "kernel/xiaomi/grus",
+        "branch":       "ten"
     },
     {
         "remote":       "aospa",
@@ -46,6 +34,12 @@
         "repository":   "AOSPA/android_hardware_qcom_media",
         "target_path":  "hardware/qcom/media",
         "revision":     "quartz-845"
+    },
+    {
+        "remote":       "github",
+        "repository":   "LineageOS/android_external_ant-wireless_antradio-library",
+        "target_path":  "external/ant-wireless/antradio-library",
+        "revision":     "lineage-17.1"
     },
     {
         "remote":       "aospa",

@@ -277,17 +277,17 @@ PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
 # Telephony
-PRODUCT_PACKAGES += \
-    ims-ext-common \
-    ims_ext_common.xml \
-    qti-telephony-hidl-wrapper \
-    qti_telephony_hidl_wrapper.xml \
-    qti-telephony-utils \
-    qti_telephony_utils.xml \
-    telephony-ext
+#PRODUCT_PACKAGES += \
+#    ims-ext-common \
+#    ims_ext_common.xml \
+#    qti-telephony-hidl-wrapper \
+#    qti_telephony_hidl_wrapper.xml \
+#    qti-telephony-utils \
+#    qti_telephony_utils.xml \
+#    telephony-ext
 
-PRODUCT_BOOT_JARS += \
-    telephony-ext
+#PRODUCT_BOOT_JARS += \
+#    telephony-ext
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -488,8 +488,8 @@ PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
+#PRODUCT_BOOT_JARS += \
+#    WfdCommon
 
 # Input
 PRODUCT_COPY_FILES += \
@@ -523,8 +523,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     qti-telephony-common
 
-# QTI common
-TARGET_COMMON_QTI_COMPONENTS := perf
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
 
 # ANT+
 PRODUCT_PACKAGES += \
