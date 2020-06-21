@@ -6,9 +6,9 @@
 
 BOARD_VENDOR := xiaomi
 
-BUILD_BROKEN_DUP_RULES := true
-
 DEVICE_PATH := device/xiaomi/grus
+
+BUILD_BROKEN_DUP_RULES := true
 
 # Security Patch Level
 VENDOR_SECURITY_PATCH := 2020-04-01

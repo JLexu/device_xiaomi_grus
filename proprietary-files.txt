@@ -77,6 +77,7 @@ framework/qcrilhook.jar
 framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
 framework/audiosphere.jar
 framework/izat.xt.srv.jar
+framework/tcmclient.jar
 framework/vendor.qti.data.factory-V1.0-java.jar
 framework/com.qti.dpmframework.jar
 framework/com.quicinc.cne.constants-V2.0-java.jar
