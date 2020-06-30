@@ -454,7 +454,7 @@ PRODUCT_PACKAGES += \
 # VR
 PRODUCT_PACKAGES += \
     android.hardware.vr@1.0-impl \
-    android.hardware.vr@1.0-service \
+#    android.hardware.vr@1.0-service \
     vr.sdm710
 
 # Wifi
