@@ -525,7 +525,7 @@ PRODUCT_PACKAGES += \
 
 TARGET_COMMON_QTI_COMPONENTS := \
     av \
-    bt \
+#    bt \
     perf \
     telephony \
     wfd
